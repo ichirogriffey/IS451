@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            margin: 20px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+        video {
+            max-width: 90%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #ff7e5f;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #feb47b;
+        }
+        .content {
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+        .content p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Awesome Page!</h1>
+    <video src="video.mp4" autoplay loop muted></video>
+    <div class="content">
+        <h2>How to Get Rich by Using Data to Model Whether the S&P 500 Will Go Up or Down!</h2>
+        <p>The S&P 500 is a stock market index that measures the stock performance of 500 large companies listed on stock exchanges in the United States.</p>
+        <p>Using data and machine learning algorithms, it is possible to model and predict the movements of the S&P 500. Algorithms such as linear regression, decision trees, and neural networks are commonly used in financial predictions.</p>
+        <p>These models analyze historical data to find patterns and trends that can indicate future market movements. However, it is important to remember that the stock market is influenced by many unpredictable factors, so no model can guarantee success.</p>
+    </div>
+    <a href="content.html" class="btn">Go to Content</a>
+</body>
+</html>
